@@ -8,15 +8,69 @@ body {
 }
 
 #landing-text {
-	background-color: #E05A3A;
+	background-color: #7A3701;
 }
 
 #landing-text2 {
-	background-color: #E05A3A;
-	color: #E05A3A;
-	border-color: #E05A3A;
+	background-color: #7A3701;
+	color: #7A3701;
+	border-color: #7A3701;
 }
 
 #landing-text3 {
 	background-color: #E0E2E3;
+}
+
+.color-img {
+	-webkit-filter: hue-rotate(180deg);
+}
+
+.color-img2 {
+	-webkit-filter: sepia(0.8);
+}
+
+.color-img3 {
+	-webkit-filter: hue-rotate(130deg);
+}
+
+#carousel-bg {
+	background-color: #3B4657;
+}
+
+#skills-img-bg {
+	background-color: #AE5800;
+}
+
+#skills-bg {
+	background-color: #F7D0AF;
+}
+.skills-img {
+	background-color: #E0E2E3;
+}
+
+.skills-img-h {
+	height: 200px;
+}
+
+#linkedin-img {
+	height: 20px;
+	width: 20px;
+}
+
+#linkedin-row {
+	height: 70px;
+}
+
+footer span {
+	text-decoration: none;
+	color: black;
+}
+
+form {
+	background-color: #D86406;
+}
+
+#nav-bar {
+	text-decoration: none;
+	color: white;
 }

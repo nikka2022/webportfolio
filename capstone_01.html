@@ -23,41 +23,212 @@
 	</head>
 	<body class="text-center">
 		<!-- Navbar start -->
-		<div class="bg-dark text-white p-2 d-flex">
+		<div class="bg-dark text-white p-2 d-flex fixed-top">
 			<h5 class="p-2 font-weight-bold mr-auto">Nikka Pujol</h5>
-			<div class="p-2">About me</div>
-			<div class="p-2">Gallery</div>
-			<div class="p-2">Contact</div>
+			<div class="p-2 text-white">
+				<a href="#skills" id="nav-bar">Skills</a>
+			</div>
+			<div class="p-2 text-white">
+				<a href="#carousel" id="nav-bar">Projects</a>
+			</div>
+			<div class="p-2 text-white">
+				<a href="#contact-form"  id="nav-bar">Contact</a>
+			</div>
 		</div>
 		<!-- Navbar end -->
 
-		<!-- Landing above fold start -->
-		<div class="container-fluid">
+
+		<div class="container-fluid" id="landing-img">
+
+			<!-- Landing above fold start -->		
 	        <div class="row text-white align-items-center" id="landing-text">
 	            <div class="col-sm-12 col-md-12 col-lg-4 order-2 order-lg-1">
-	                <h1 class="mt-5">ALT+ Recipe</h1>
-	                <p>Product | Business | Full stack</p>
+	                <h1 class="mt-5 pb-1">ALT+ Recipe</h1>
+	                <p class="pb-3">Product Management + UX | Full stack</p>
 	            </div>
 	            <div class="col-sm-12 col-md-12 col-lg-8 order-1 order-lg-2" id="landing-img">
 	                <img src="https://images.pexels.com/photos/4199098/pexels-photo-4199098.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" class="img-fluid"/>
 	            </div>
 	        </div>
-		</div>
-		<!-- Landing above fold end -->
-		<div class="container-fluid">
-			<div class="text-light row">
-				<div class="col min-vh-100 d-lg-none" id="landing-text2">Auto</div>
+			<!-- Landing above fold end -->
+
+
+			<!-- About me start -->
+			<div class="text-light row mt-5">
+				<div class="col"></div>
+				<div class="col"></div>
 			</div>
-		</div>
+
+			<h3 class="mt-5 text-dark" id="skills">Skills and Tools</h3>
+	        <div class="row text-white p-2 d-md-flex justify-content-around" id="landing-img">
+	            <div class="col-sm-5 col-md-3 m-4 p-3" id="skills-img-bg">
+	                <img src="https://cdn-icons-png.flaticon.com/512/5968/5968704.png" class="img-fluid skills-img skills-img-h p-3">
+	                <h5 class="pt-3">Prototyping</h5>
+	                <p>Interactive user journey demo via Figma</p>
+	            </div>
+	            <div class="col-sm-5 col-md-3 m-4 p-3" id="skills-img-bg">
+	                <img src="https://cdn-icons-png.flaticon.com/512/5968/5968842.png" class="img-fluid skills-img skills-img-h p-3">
+	                <h5 class="pt-3">Jira</h5>
+	                <p>Project and backlog management via Jira</p>
+	            </div>
+	            <div class="col-sm-5 col-md-3 m-4 p-3" id="skills-img-bg">
+	                <img src="https://cdn-icons-png.flaticon.com/512/5968/5968748.png" class="img-fluid skills-img skills-img-h p-3">
+	                <h5 class="pt-3">Documentation</h5>
+	                <p>Detailing app behavior via Confluence</p>
+	            </div>
+	        </div>
+
+	        <div class="row text-white pt-2 pb-5 d-md-flex justify-content-around" id="landing-img">
+	            <div class="col-sm-5 col-md-3 m-4 p-3" id="skills-img-bg">
+	                <img src="https://cdn-icons-png.flaticon.com/512/686/686887.png" class="img-fluid skills-img skills-img-h p-3">
+	                <h5 class="pt-3">Process Design</h5>
+	                <p>Defining business process via Draw.io</p>
+	            </div>
+	            <div class="col-sm-5 col-md-3 m-4 p-3" id="skills-img-bg">
+	                <img src="https://cdn-icons-png.flaticon.com/512/1051/1051328.png" class="img-fluid skills-img skills-img-h p-3">
+	                <h5 class="pt-3">Front-end</h5>
+	                <p>Front-end development via Sublime</p>
+	            </div>
+	            <div class="col-sm-5 col-md-3 m-4 p-3" id="skills-img-bg">
+	                <img src="https://cdn-icons-png.flaticon.com/512/2772/2772165.png" class="img-fluid skills-img skills-img-h p-3">
+	                <h5 class="pt-3">Data analysis</h5>
+	                <p>Extracting and analyzing data via SQL</p>
+	            </div>
+	        </div>
+
+			<div class="text-light row"  id="carousel">
+				<div class="col" id="carousel-bg">
+					<h3 class="mt-3 pt-5 text-white">Projects</h3>
+				</div>
+			</div>
 
 
+			<div class="row text-center" id="carousel-bg">
+				<div class="offset-xl-3 col-xl-6 pt-4 pb-5 pr-4 pl-4">
+					<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+						<ol class="carousel-indicators">
+							<li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+							<li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+							<li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+						</ol>
+						<div class="carousel-inner">
+
+							<!-- SNS MANAGER -->
+							<div class="carousel-item order-1">
+								<a href="https://store.cafe24.co.jp/apps/1305" target="_blank">
+									<img src="https://appservice-img.s3.amazonaws.com/apps/eDRLhQYVVaDEtEChVVhNKF/ja/list/image?1621991416" class="d-block w-100 color-img" alt="...">
+								</a>
+								<div class="carousel-caption d-none d-md-block">
+									<h5></h5>
+									<p></p>
+								</div>
+							</div>
+
+							<!-- NEXT ENGINE -->
+							<div class="carousel-item order-2">
+								<a href="https://store.cafe24.co.jp/apps/3734">
+									<img src="https://appservice-img.s3.amazonaws.com/apps/Aed3sjfaBUsv6md8rFMxCH/ja/list/image?1621991711" class="d-block w-100 color-img" alt="...">
+								</a>
+								<div class="carousel-caption d-none d-md-block">
+									<h5></h5>
+									<p></p>
+								</div>
+							</div>
+
+							<!-- RETARGETING -->
+							<div class="carousel-item order-3">
+								<a href="https://store.cafe24.co.jp/apps/2775">
+									<img src="https://appservice-img.s3.amazonaws.com/apps/gl5Z6PytHJfMPTfjc7RyPK/ja/list/image?1621994542" class="d-block w-100 color-img" alt="...">
+								</a>
+								<div class="carousel-caption d-none d-md-block">
+									<h5></h5>
+									<p></p>
+								</div>
+							</div>
+
+							<!-- COD -->
+							<div class="carousel-item order-4">
+								<a href="https://store.cafe24shop.com/apps/5694">
+									<img src="https://appservice-img.s3.amazonaws.com/apps/kpOoJ2myOBvqgmYbK7J8RB/en/list/image?1625208856" class="d-block w-100 color-img2" alt="...">
+								</a>
+								<div class="carousel-caption d-none d-md-block">
+									<h5></h5>
+									<p></p>
+								</div>
+							</div>
+
+							<!-- INFLUENCER -->
+							
+							<div class="carousel-item active order-5">
+								<a href="https://store.cafe24.co.jp/apps/2579" target="_blank">
+									<img src="https://appservice-img.s3.amazonaws.com/apps/6jYyR9ee3kjImcUv3fmc8T/ja/list/image?1631578683" class="d-block w-100 color-img3" alt="...">
+								</a>
+								<div class="carousel-caption d-none d-md-block">
+									<h5></h5>
+									<p></p>
+								</div>
+							</div>
+							
+
+						</div>
+						<button class="carousel-control-prev" type="button" data-target="#carouselExampleCaptions" data-slide="prev">
+							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+							<span class="sr-only">Previous</span>
+						</button>
+						<button class="carousel-control-next" type="button" data-target="#carouselExampleCaptions" data-slide="next">
+							<span class="carousel-control-next-icon" aria-hidden="true"></span>
+							<span class="sr-only">Next</span>
+						</button>
+					</div>
+					
+				</div>
+			</div>
+
+			<div class="text-light row mt-5">
+				<div class="col"></div>
+				<div class="col"></div>
+			</div>
+
+			<!-- Contact form section start -->
+			<div class="min-vh-100 pt-5 pb-1" id="landing-img">
+
+				<h5 class="mb-3 text-dark" id="contact-form">Contact me</h5>
+
+				<div class="d-flex justify-content-center">
+					<form class="col-xl-4 col-md-8 col-sm-12 text-center pt-2 pb-5 rounded">
+						<div class="form-group">
+							<label for="exampleFormControlInput1" class="text-white pt-4">Name</label>
+							<input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Your name">
+						</div>
+						<div class="form-group">
+							<label for="exampleFormControlInput2" class="text-white">Email address</label>
+							<input type="email" class="form-control" id="exampleFormControlInput2" placeholder="name@example.com">
+						</div>
+						<div class="form-group">
+							<label for="exampleFormControlInput3" class="text-white">Contact number</label>
+							<input type="number" class="form-control" id="exampleFormControlInput3" placeholder="+63 900 000 0000">
+						</div>
+						<div class="form-group">
+							<label for="exampleFormControlTextarea1" class="text-white">Message</label>
+							<textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+						</div>
+						<button type="submit" class="btn btn-light m-3">Send email</button>
+					</form>
+				</div>
+			</div>
+			<!-- Contact form section end -->
 
 
 
         <!-- Footer -->
-        <div class="text-dark fixed-bottom" id="landing-img">
-            <p class="pt-3">Other details available upon request</p>
-        </div>
+        <footer class="pt-3 pb-3 text-center fixed-bottom" id="landing-img">
+        	<a href="https://www.linkedin.com/in/mdpujol/">
+		        <span class="pr-1">  
+                	<img src="https://cdn-icons-png.flaticon.com/128/61/61109.png" id="linkedin-img">
+		        </span>
+		        <span>Connect with me at LinkedIn</span>
+              </a>
+        </footer>
         <!-- End of Footer -->
 
 
