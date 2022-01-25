@@ -1,0 +1,22 @@
+/* Google Font */
+body {
+	font-family: "Helvetica Neue", sans-serif;
+}
+
+#landing-img {
+	background-color: #E0E2E3;
+}
+
+#landing-text {
+	background-color: #E05A3A;
+}
+
+#landing-text2 {
+	background-color: #E05A3A;
+	color: #E05A3A;
+	border-color: #E05A3A;
+}
+
+#landing-text3 {
+	background-color: #E0E2E3;
+}
